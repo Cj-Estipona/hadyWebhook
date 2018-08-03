@@ -2,6 +2,6 @@
   "name": "Dialogflow webhook demo",
   "description": "Dialogflow webhook demonstration",
   "repository": "https://github.com/Cj-Estipona/hadyWebhook",
-  "logo": "http://xvir.github.io/img/apiai.png",
+  "logo": "",
   "keywords": ["api.ai", "dialogflow", "natural language"]
 }
