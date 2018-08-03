@@ -1,5 +1,5 @@
 <?php
-  echo "Hello World";
+  //echo "Hello World";
   function processMessage($update) {
       if($update["result"]["action"] == "sayHello"){
           sendMessage(array(
@@ -12,7 +12,7 @@
   }
 
   function sendMessage($parameters) {
-      //echo json_encode($parameters);
+      echo json_encode($parameters);
   }
 
   $update_response = file_get_contents("php://input");
